@@ -1,0 +1,23 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    color:black;
+    font-weight:900;
+    font-family: Algerian;
+    text-align: center;
+    background-color: #95dada;
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+    -moz-osx-font-smoothing: grayscale;
+    backface-visibility: hidden;
+    transform: translateZ(0);
+    transition: transform 0.25s ease-out;
+  }
+  
+  .card-container:hover {
+    transform: scale(1.05);
+  }
+  
